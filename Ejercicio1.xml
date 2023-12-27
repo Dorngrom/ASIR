@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Ciudades>
+<ciudades>
+  <ciudad>
+    <nombre> Nueva Delhi </nombre>
+    <pais continente="Asia">India</pais>
+  </ciudad>
+  <ciudad>
+    <nombre> Lisboa </nombre>
+    <pais continente="Europa">Portugal</pais>
+  </ciudad>
+  <ciudad>
+    <nombre> El cairo </nombre>
+    <pais continente= "África">Egipto</pais>
+  </ciudad>
+</ciudades>
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hechos_historicos>
+<hechos_historicos>
+  <hecho descripción="IBM da a conocer el PC">
+    <fecha>
+      <dia> 12 </dia>
+      <mes> 8 </mes>
+      <año> 1981 </año> 
+    </fecha>
+  </hecho>
+  <hecho descripción="Se funda google">
+    <fecha> 
+      <dia> 4 </dia>
+      <mes> 9 </mes> 
+      <año> 1998 </año> 
+    </fecha>
+  </hecho>
+  <hecho descripcion="Se funda Facebook">
+    <fecha> 
+      <dia> 4 </dia> 
+      <mes> 2 </mes>
+      <año> 2004 </año> 
+    </fecha>
+  </hecho> 
+</hechos_historicos>
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE paginas_web>
+<paginas_web>
+  <pagina> 
+    <nombre>abrir_llave</nombre> 
+    <descripcion>tutoriales_de_informatica</descripcion>
+    <url>https://www.abrirllave.com</url>
+  </pagina>
+  <pagina>
+    <nombre>wikipedia</nombre>
+    <descripcion>enciclopedia_libre</descripción>
+    <url>https://www.wikipedia.org</url>
+  </pagina>
+  <pagina>
+    <nombre>w3c</nombre>
+    <descripcion>world_wide_web_consortium</descripcion>
+    <url>https://www.w3.org</url>
+  </pagina>
+</paginas_web>
+
+<?xml version"1.0" encoding="UTF-8"?>
+<!DOCTYPE equipos_futbol>
+<equipos>
+  <equipo>
+    <nombre>rayo_vallecano</nombre>
+    <ciudad>madrid</madrid>
+    <entrenador>francisco_rodriguez</entrenador>
+    <jugadores>
+      <jugador posicion="mediocentro">
+        <nombre>isi_palazon</nombre>
+        <nacionalidad>españa</nacionalidad>
+      </jugador>
+      <jugador posicion="defensa">
+        <nombre>alejandro_catena</nombre>
+        <nacionalidad>españa</nacionalidad>
+      </jugador>
+    </jugadores>
+  </equipo>
+  <equipo>
+    <nombre>valencia_cf</nombre>
+    <ciudad>valencia</ciudad>
+    <entrenador>ruben_baraja</entrenador>
+    <jugadores>
+      <jugador posicion="defensa">
+        <nombre>gaya</nombre>
+        <nacionalidad>españa</nacionalidad>
+      </jugador>
+      <jugador posicion="portero">
+        <nombre>mamardashvili</nombre>
+        <nacionalidad>georgia</nacionalidad>
+      </jugador>
+    </jugadores>
+  </equipo>
+</equipos>
+
+        

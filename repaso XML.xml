@@ -1,0 +1,104 @@
+
+#Ejercicio de repaso XML Jose Franco Álvarez 1ºASIR#
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<deportistas>
+<deportista>
+<deporte> Atletismo </deporte>
+<nombre>Jesse Owens</nombre>
+</deportista>
+<deportista>
+<deporte> Natación </deporte>
+<nombre>Mark Spitz</nombre>
+</deportista>
+</deportistas>
+
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<texto>
+<titulo>XML explicado a los niños</titulo>
+<parrafo>El <abreviatura>XML</abreviatura>define cómo crear
+lenguajes de marcas.</parrafo>
+<parrafo>Las marcas se añaden a un documento de texto
+para añadir información.</parrafo>
+<http://>www.example.org</http://>
+</texto>        
+
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<agenda>
+    <contacto> 
+        <nombre>Pablo</nombre>
+        <email>pablo234@gmail.com</email>
+        <telefono>546910298</telefono>
+    </contacto>
+    <contacto>
+        <nombre>María</nombre>
+        <email>mfr567@gmail.com</email>
+        <telefono>789456654</telefono>
+    </contacto>
+</agenda>
+
+
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<empleados>
+    <empleado>
+        <nombre>Ana</nombre>
+        <apellido>García</apellido>
+        <edad>30</edad>
+        <departamento>ventas</departamento>
+        <cargo>ejecutivo de ventas</cargo>
+    </empleado>
+    <empleado>
+        <nombre>Luis</nombre>
+        <apellido>Rodríguez</apellido>
+        <edad>45</edad>
+        <departamento>finanzas</departamento>
+        <cargo>Analista financiero</cargo>
+    </empleado>
+    <empleado>
+        <nombre>María</nombre>
+        <apellido>López</apellido>
+        <edad>28</edad>
+        <departamento>Marketing</departamento>
+        <cargo>especialista en redes sociales</cargo>
+    </empleado>
+</empleados>
+
+
+
+
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogo>
+    <producto>
+        <nombre>Kindle</nombre>
+        <descripcion>Libro electrónico</descripcion>
+        <precio>104</precio>
+        <caracteristicas>
+            <conectividad>Sí</conectividad>
+            <pulgadas>6 pulgadas</pulgadas>
+            <táctil>No</táctil>
+        </caracteristicas>
+    </producto>
+    <producto>
+        <nombre>Corsair K70</nombre>
+        <descripcion>Teclado mecánico RGB</descripcion>
+        <precio>89</precio>
+        <caracteristicas>
+            <RGB>Sí</RGB>
+            <switch>cherry blue</switch>
+            <entrada_USB>Sí</entrada_USB>
+        </caracteristicas>
+    </producto>
+</catalogo>
