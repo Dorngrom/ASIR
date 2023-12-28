@@ -1,0 +1,11 @@
+p {
+color: blue;
+}
+#p2 {
+background-color: grey;
+} 
+#p1 {
+border-color: red;
+border-style: solid;
+border-width: 2px;
+}
